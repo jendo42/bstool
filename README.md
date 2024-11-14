@@ -6,9 +6,9 @@ Created in OpenWatcom v2.0 beta.
 ## Usage
 Program is called with arguments
 ```
-C:\> bstool.exe <bios device> <part num> <output file>
+C:\> bstool.exe <bios_device> <part_num> <output_file>
 ```
- - *<bios device>* is BIOS disk device number (0 = floppy A, 0x80 = HDD0)
- - *<part num>* is partition index, use '-' to address MBR itself.
- - *<output file>* path where to save output
+ - *bios_device* is BIOS disk device number (0 = floppy A, 0x80 = HDD0)
+ - *part_num* is partition index, use '-' to address MBR itself.
+ - *output_file* path where to save output
  
